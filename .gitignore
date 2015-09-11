@@ -1,4 +1,12 @@
-/bootstrap/compiled.php
-.env.*.php
-.env.php
-.env
+*.htaccess
+*.lnk
+node_modules/
+bower_components/
+include/class/
+public/css/dev/
+public/js/dev/
+intranet/
+Thumbs.db
+prueba.php
+index2.php
+sa-defines.php
