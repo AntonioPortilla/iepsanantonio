@@ -1,0 +1,30 @@
+{
+  "name": "IEP San Antonio",
+  "version": "0.1.0",
+  "authors": [
+    "Julio Laveriano en SITATEL <julioantonio.lp@gmail.com>"
+  ],
+  "description": "Sistema web para el colegio San Antonio",
+  "license": "MIT",
+  "homepage": "http://about.me/jalp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElAmoDelMal/iepsanantonio"
+  },
+  "devDependencies": {
+    "jquery": "1.11.3"
+  },
+  "dependencies": {
+    "fontawesome": "~4.4.0",
+    "polymer": "Polymer/polymer#^1.0.0",
+    "bootstrap": "~3.3.5",
+    "angular": "1.4.5"
+  }
+}
