@@ -1,111 +1,117 @@
-<div class="container">
-  <div class="row">
-    <div id="indexCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#indexCarousel" data-slide-to="1"></li>
-        <li data-target="#indexCarousel" data-slide-to="2"></li>
-        <li data-target="#indexCarousel" data-slide-to="3"></li>        
-        <li data-target="#indexCarousel" data-slide-to="4"></li>        
-      </ol>      
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner1.jpg" alt="logo UVluz">
-        </div>
-        <div class="item">
-          <img class="second-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner2.jpg" alt="logo UVluz">
-        </div>
-        <div class="item">
-          <img class="third-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner3.jpg" alt="logo UVluz">
-        </div>
-        <div class="item">
-          <img class="four-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner4.jpg" alt="logo UVluz">
-        </div>
-        <div class="item">
-          <img class="four-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner5.jpg" alt="logo UVluz">
-        </div>
+<div class="row">
+  <div id="indexCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#indexCarousel" data-slide-to="1"></li>
+      <li data-target="#indexCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="first-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner.jpg" alt="IEP">
       </div>
-      <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Atrás</span>
-      </a>
-      <a class="right carousel-control" href="#indexCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="item">
+        <img class="second-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner.jpg" alt="IEP">
+      </div>
+      <div class="item">
+        <img class="third-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner.jpg" alt="IEP">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Atrás</span>
+    </a>
+    <a class="right carousel-control" href="#indexCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="row info">
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 left">
+    <div class="elemento uno">
+      <div>
+        <img src="<?php echo IMAGE_PATH; ?>/noti.png" alt="NOTICIAS" />
+        <h2>NOTICIAS</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="elemento dos">
+      <div>
+        <img src="<?php echo IMAGE_PATH; ?>/actividades.png" alt="ACTIVIDADES" style="margin-top:-24px" />
+        <h2 style="margin-top:15px">ACTIVIDADES <br>EXTRACURRICULARES</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="elemento tres">
+      <div>
+        <img src="<?php echo IMAGE_PATH; ?>/sedes.png" alt="SEDES" />
+        <h2>SEDES</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 right">
+    <div class="elemento cuatro">
+      <div>
+        <img src="<?php echo IMAGE_PATH; ?>/servicios.png" alt="SERVICIOS" />
+        <h2>SERVICIOS</h2>
+      </div>
     </div>
   </div>
 </div>
-<div class="container produtcs">
-  <div class="row">
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 nosotros">
-      <h3 class="nos">NOSOTROS</h3>
-      <p>
-        UV LUZ SERIGRAFICA  S.A.C,  empresa de artículos publicitarios, con la finalidad de apoyar al 
-        crecimiento y fortalecimiento de las empresas, cumpliendo los requerimientos establecidos 
-        para lograr un posicionamiento en su consumidor y/o cliente, tomando en cuenta los conceptos 
-        fundamentales del Marketing.
-      </p>
-      <a href="<?php echo APP_DOMAIN; ?>/empresa/" class="btn btn-primary btn-more">Ver más</a>
-    </div>
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <img src="<?php echo IMAGE_PATH; ?>/nosotros.jpg" alt="">
-    </div>
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 nosotros">
-      <h3 class="nos">SERVICIOS</h3>
-        <ul>
-          <li>PAD MOUSE</li>
-          <li>REGLAS</li>
-          <li>SEÑALETICAS</li>
-          <li>TERMOFORMADOS</li>
-          <li>PASA VUELTO</li>
-          <li>PALETA PORTA PRECIO</li>
-          <li>PIZARRAS</li>
-          <li>IMANTADOS</li>
-          <li>DISPLAY</li>
-        </ul>
-      <a href="<?php echo APP_DOMAIN; ?>/servicios/" class="btn btn-primary btn-more">Ver más</a>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
+    <p>
+      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
+      primaria y secundaria.
+    </p>
+    <p>
+      Somos IEP San Antonio de Carabayllo, un centro educativo que se caracteriza por la:
+    </p>
+    <p>
+      - Modernidad en la enseñanza. <br>
+      - Formación integral y cívica. <br>
+      - Formación espiritual y en valores.
+    </p>
+    <p>
+      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
+      deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="video_institucional">
+      <img src="<?php echo IMAGE_PATH; ?>/video.jpg" alt="Video">
     </div>
   </div>
-  <div class="row" style="margin:40px 0px">
-    <div class="col-lg-12">
-      <hr><br>
-      <h3 class="work">TRABAJOS</h3>
+</div>
+<div class="row">
+  <div class="box-galardones"></div>
+</div>
+<div class="row galardones">
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="elemento">
+      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
     </div>
-  </div>  
-  <div class="row">
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-      <div class="elemento">
-        <a href="<?php echo APP_DOMAIN ?>/trabajos/" class="prod">
-          <img src="<?php echo IMAGE_PATH; ?>/aromatizador.jpg" alt="Aromatizador" width="95%" />
-        </a>
-      </div>
-      <h2>Aromatizador</h2>
+    <h3>MOVILIDAD ESCOLAR</h3>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="elemento">
+      <img src="<?php echo IMAGE_PATH; ?>/galardones/seminarios.jpg" alt="seminarios" />
     </div>
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-      <div class="elemento">
-        <a href="<?php echo APP_DOMAIN ?>/trabajos/" class="prod">
-          <img src="<?php echo IMAGE_PATH; ?>/jala.jpg" alt="jala vista" width="95%" />
-        </a>
-      </div>
-      <h2>Jala Vista</h2>
+    <h3>SEMINARIOS PRE</h3>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="elemento">
+      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
     </div>
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-      <div class="elemento">
-        <a href="<?php echo APP_DOMAIN ?>/trabajos/" class="prod">
-          <img src="<?php echo IMAGE_PATH; ?>/llavero.jpg" alt="llavero" width="95%" />
-        </a>
-      </div>
-      <h2>Llavero</h2>
+    <h3>PREMIOS</h3>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="elemento">
+      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
     </div>
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-      <div class="elemento">
-        <a href="<?php echo APP_DOMAIN ?>/trabajos/" class="prod">
-          <img src="<?php echo IMAGE_PATH; ?>/bitel.jpg" alt="bitel" width="95%" />
-        </a>
-      </div>
-      <h2>Stickers</h2>
-    </div>
-  </div>    
-    
+    <h3>GALERÍA</h3>
+  </div>
 </div>

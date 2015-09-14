@@ -14,38 +14,31 @@ module.exports = function(grunt) {
         },
         styles: {
             src: [
-                  'dev/css/bootstrap.min.css', 
-                  'dev/css/carousel.css', 
-                  'dev/css/social-media.css', 
-                  'dev/css/least.min.css', 
-                  'dev/css/navigation.css', 
-                  'dev/css/component.css',
-                  'dev/css/style.css'
+                  'bower_components/bootstrap/dist/css/bootstrap.min.css', 
+                  'css/dev/stylus.css'
                   ],
-            dest: 'prod/css/styles.css'
+            dest: 'css/prod/styles.css'
         },
         scripts: {
             src: [
-                  'dev/js/jquery-1.11.2.min.js', 
-                  'dev/js/bootstrap.min.js', 
-                  'dev/js/least.min.js', 
-                  'dev/js/modernizr.custom.js', 
-                  'dev/js/script.js'
+                  'bower_components/jquery/dist/jquery.min.js', 
+                  'bower_components/bootstrap/dist/js/bootstrap.min.js', 
+                  'js/dev/script.js'
                   ],
-            dest: 'prod/js/scripts.js'
+            dest: 'js/prod/scripts.js'
         }
     },
     cssmin: {
       compress: {
         files: {
-          "public/css/styles.min.css": 'prod/css/styles.css'
+          "css/styles.min.css": 'css/prod/styles.css'
         }
       }
     },        
     uglify: {
       my_target: {
         files: {
-          'public/js/scripts.min.js': 'prod/js/scripts.js'
+          'js/scripts.min.js': 'js/prod/scripts.js'
         }
       }
     },
@@ -60,7 +53,7 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      all: ['Gruntfile.js', 'dev/js/script.js']
+      all: ['Gruntfile.js', 'js/dev/script.js']
     },
     stylus: {
         compile: {
@@ -121,6 +114,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('compile', ['stylus']);
 	grunt.registerTask('jalp', ['compile', 'watch']); 
   grunt.registerTask('default', ['compile']);
-	grunt.registerTask('public', ['concat', 'cssmin', 'uglify']);
+	grunt.registerTask('public', ['jshint', 'concat', 'cssmin', 'uglify']);
 
 };

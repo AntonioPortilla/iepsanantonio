@@ -4,8 +4,11 @@ node_modules/
 bower_components/
 include/class/
 public/css/dev/
+public/css/prod/
 public/js/dev/
+public/js/prod/
 intranet/
+stylus
 Thumbs.db
 prueba.php
 index2.php
