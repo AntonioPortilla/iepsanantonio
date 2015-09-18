@@ -15,6 +15,7 @@ module.exports = function(grunt) {
         styles: {
             src: [
                   'bower_components/bootstrap/dist/css/bootstrap.min.css', 
+                  'bower_components/animate.css/animate.min.css', 
                   'css/dev/stylus.css'
                   ],
             dest: 'css/prod/styles.css'

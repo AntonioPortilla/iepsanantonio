@@ -1,4 +1,4 @@
-      <div class="row">
+    <div class="row">
       <footer>
         <div class="container">
           <div class="row">
@@ -21,10 +21,7 @@
         </div>
       </footer>
     </div>
-    </div>
-
-<!--<script src="<?php echo PUBLIC_PATH; ?>/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="<?php echo PUBLIC_PATH; ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>-->
+  </div>
 <script>var home_url = "<?php echo APP_DOMAIN ?>"</script>
 <script src="<?php echo JS_PATH; ?>/scripts.min.js"></script>
 </body>

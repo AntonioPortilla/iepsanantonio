@@ -9,9 +9,7 @@
   <meta name="keywords" content="IEP, Colegio, Carabayllo, Lima">
   <meta name="author" content="JALP Laveriano">
   <link rel="stylesheet" href="<?php echo CSS_PATH; ?>/styles.min.css">
-  <link rel="icon" href="<?php echo APP_DOMAIN ?>/favicon.ico"><!--
-  <link rel="stylesheet" href="<?php echo PUBLIC_PATH; ?>/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo CSS_PATH; ?>/dev/stylus.css"> -->
+  <link rel="icon" href="<?php echo APP_DOMAIN ?>/favicon.ico">
 </head>
 <body>
   <div class="container contenedor">
