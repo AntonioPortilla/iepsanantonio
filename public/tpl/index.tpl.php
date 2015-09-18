@@ -4,18 +4,36 @@
       <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#indexCarousel" data-slide-to="1"></li>
       <li data-target="#indexCarousel" data-slide-to="2"></li>
+      <li data-target="#indexCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
+      <div class="contentIntranet">
+        <form action="<?php echo APP_DOMAIN; ?>/intranet/login/index.php" method="post" id="login" class="formIntranet">
+          <h3>INGRESA AL INTRANET</h3>
+          <div class="form-group">
+            <input type="text" name="username" id="username" class="form-control" size="15" value="" placeholder="USUARIO" required>
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" class="form-control" id="password" size="15" value="" placeholder="CONTRASEÑA" required>
+          </div>
+          <div class="form-group">
+            <input type="submit" id="loginbtn" value="ENTRAR">
+          </div>
+        </form>
+      </div>
       <div class="item active">
-        <img class="first-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner.jpg" alt="IEP">
+        <img class="first-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner1-sac.jpg" alt="IEP">
       </div>
       <div class="item">
-        <img class="second-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner.jpg" alt="IEP">
+        <img class="second-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner2-sac.jpg" alt="IEP">
+       </div>
+      <div class="item">
+        <img class="third-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner3-sac.jpg" alt="IEP">
       </div>
       <div class="item">
-        <img class="third-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner.jpg" alt="IEP">
-      </div>
-    </div>
+        <img class="third-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner4-sac.jpg" alt="IEP">
+       </div>
+    </div><!--
     <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Atrás</span>
@@ -23,7 +41,7 @@
     <a class="right carousel-control" href="#indexCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a>-->
   </div>
 </div>
 <div class="row info">
@@ -60,8 +78,8 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div class="row desc">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
     <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
     <p>
       En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
@@ -80,7 +98,7 @@
       deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
     </p>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
     <div class="video_institucional">
       <img src="<?php echo IMAGE_PATH; ?>/video.jpg" alt="Video">
     </div>
