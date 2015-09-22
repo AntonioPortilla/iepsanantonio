@@ -100,7 +100,7 @@
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
     <div class="video_institucional">
-      <img src="<?php echo IMAGE_PATH; ?>/video.jpg" alt="Video">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
