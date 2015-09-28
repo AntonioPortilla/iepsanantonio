@@ -122,9 +122,6 @@
       <strong>Móvil</strong>: Claro: 987-632371 <br>
       <strong>Horario laboral</strong>: lunes a viernes de: 07:30 a.m. a 03:00 p.m.
     </p>
-    <p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3904.3828590013263!2d-77.0188527!3d-11.8784067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d0a475f3f7c1%3A0x4eb71fada62c060a!2sParadero+La+Cumbre!5e0!3m2!1ses!2spe!4v1443471266334" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
     <form id="formContact">
@@ -151,6 +148,9 @@
       <button type="submit" class="btn btn-default btn-blue center" aria-label="Left Align">
         ENVIAR
       </button>
-    </form>
+    </form><br>
+    <p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3904.3828590013263!2d-77.0188527!3d-11.8784067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d0a475f3f7c1%3A0x4eb71fada62c060a!2sParadero+La+Cumbre!5e0!3m2!1ses!2spe!4v1443471266334" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </p>
   </div>
 </div>
