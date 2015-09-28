@@ -78,58 +78,79 @@
     </div>
   </div>
 </div>
-<div class="row desc">
+<div class="row desc" style="margin-bottom:45px">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
+    <h3><strong>CONTACTO</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
-      primaria y secundaria.
+      Contáctanos a nuestras 3 sedes.
+    </p>
+    <h4><strong>SEDE PRINCIPAL</strong></h4>
+    <p><strong>Dirección</strong></p>
+    <p>Prolongación Los Laureles, mz. U1 - lt. 3 <br>
+      Túpac Amaru, km 19 - 1/2 mg. derecha <br>
+      CARABAYLLO, LIMA (Lima)
     </p>
     <p>
-      Somos IEP San Antonio de Carabayllo, un centro educativo que se caracteriza por la:
+      <strong>E-mail</strong>: sanantoniodecarabayllo@gmail.com <br>
+      <strong>E-mail</strong>: informes@iepsanantoniodecarabayllo.com <br>
+      <strong>Teléfono</strong>: Central: (01) 654-7054 <br>
+      <strong>Móvil</strong>: Claro: 987-632371 <br>
+      <strong>Horario laboral</strong> : Lunes a viernes de: 07:30 a.m. a 03:00 p.m.
+    </p>
+    <h4><strong>SEDE EL ROSARIO</strong></h4>
+    <p><strong>Dirección</strong></p>
+    <p>
+      Km 30,5 de la carretera a Canta mg. derecha <br>
+      CARABAYLLO, LIMA (Lima)
     </p>
     <p>
-      - Modernidad en la enseñanza. <br>
-      - Formación integral y cívica. <br>
-      - Formación espiritual y en valores.
+      <strong>E-mail</strong>: sanantoniodecarabayllo@gmail.com <br>
+      <strong>Teléfono</strong>: Central: (01) 664-9936 <br>
+      <strong>Móvil</strong>: Claro: 987-632371 <br>
+      <strong>Horario laboral</strong>: Lunes a viernes de: 07:30 a.m. a 03:00 p.m.
+    </p>
+    <h4><strong>SEDE JICAMARCA</strong></h4>
+    <p><strong>Dirección</strong></p>
+    <p>
+      Quebrada Media Luna <br>
+      Asoc. Villa Percin <br>
+      SAN JUAN DE LURIGANCHO  LIMA (Lima)
     </p>
     <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
-      deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
+      <strong>E-mail</strong>: sanantoniodecarabayllo@gmail.com <br>
+      <strong>Teléfono</strong>: Central: (01) 738-4261 <br>
+      <strong>Móvil</strong>: Claro: 987-632371 <br>
+      <strong>Horario laboral</strong>: lunes a viernes de: 07:30 a.m. a 03:00 p.m.
+    </p>
+    <p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3904.3828590013263!2d-77.0188527!3d-11.8784067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d0a475f3f7c1%3A0x4eb71fada62c060a!2sParadero+La+Cumbre!5e0!3m2!1ses!2spe!4v1443471266334" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
-    <div class="video_institucional">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="box-galardones"></div>
-</div>
-<div class="row galardones">
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
-    </div>
-    <h3>MOVILIDAD ESCOLAR</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/seminarios.jpg" alt="seminarios" />
-    </div>
-    <h3>SEMINARIOS PRE</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
-    </div>
-    <h3><a href="<?php echo APP_DOMAIN ?>/premios/">PREMIOS</a></h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
-    </div>
-    <h3>GALERÍA</h3>
+    <form id="formContact">
+      <div class="form-group form-group-sm">
+        <label for="nombres">NOMBRES Y APELLIDOS (*)</label>
+        <input class="form-control" type="text" id="nombres" name="nombres" required>
+      </div>
+      <div class="form-group form-group-sm">
+        <label for="correo">CORREO (*)</label>
+        <input type="email" class="form-control" id="correo" name="correo" required>
+      </div>
+      <div class="form-group form-group-sm">
+        <label for="telf">TELÉFONO</label>
+        <input type="tel" class="form-control" id="telf" name="telefono" minlength="7">
+      </div>
+      <div class="form-group form-group-sm">
+        <label for="prov">PROVINCIA</label>
+        <input type="tel" class="form-control" id="prov" name="provincia">
+      </div>
+      <div class="form-group form-group-sm">
+        <label for="comentario">COMENTARIOS (*)</label>
+        <textarea class="form-control" rows="6" id="comentario" name="comentario" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-default btn-blue center" aria-label="Left Align">
+        ENVIAR
+      </button>
+    </form>
   </div>
 </div>

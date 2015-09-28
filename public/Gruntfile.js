@@ -104,17 +104,17 @@ module.exports = function(grunt) {
 	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  //grunt.loadNpmTasks('grunt-contrib-imagemin');   
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	//grunt.loadNpmTasks('grunt-contrib-imagemin');   
 	grunt.loadNpmTasks('grunt-contrib-htmlmin'); 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-stylus');  
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  //grunt.loadNpmTasks('grunt-pagespeed');
+	grunt.loadNpmTasks('grunt-contrib-stylus');  
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	//grunt.loadNpmTasks('grunt-pagespeed');
 	// Default task(s).
 	grunt.registerTask('compile', ['stylus']);
 	grunt.registerTask('jalp', ['compile', 'watch']); 
-  grunt.registerTask('default', ['compile']);
+	grunt.registerTask('default', ['compile']);
 	grunt.registerTask('public', ['jshint', 'concat', 'cssmin', 'uglify']);
 
 };

@@ -80,56 +80,59 @@
 </div>
 <div class="row desc">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
+    <h3><strong>LA ESCUELA</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
-      primaria y secundaria.
+      Somos <strong>IEP San Antonio de Carabayllo</strong>, una institución <strong>educativa</strong> particular que ofrece el <strong>servicio de enseñanza 
+      a alumnos en los niveles inicial, primaria y secundaria</strong>.
     </p>
     <p>
-      Somos IEP San Antonio de Carabayllo, un centro educativo que se caracteriza por la:
+      Satisfacemos los requerimientos de padres de familia del Cono Norte, los cuales desean brindar a sus hijos 
+      una buena enseñanza. Nos comunicamos con dichos padres básicamente de forma personal (en el colegio) y 
+      también a través de nuestros números telefónicos.
     </p>
     <p>
-      - Modernidad en la enseñanza. <br>
-      - Formación integral y cívica. <br>
-      - Formación espiritual y en valores.
+    	En <strong>IEP San Antonio de Carabayllo</strong> trabajamos para que nuestros alumnos aprendan bien, para esto utilizamos 
+    	estrategias modernas como la enseñanza a través de programas como el CmapTools, PowerPoint, Prezi, JClic 
+    	y todos aquellos espacios que el Internet pone en manos de nuestros <strong>docentes</strong>.
     </p>
     <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
-      deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
+    	Además, contamos con una sala de lectura donde los alumnos cómodamente pueden leer libros de acuerdo con su edad.
+    </p>
+    <p>
+    	Los padres de familia valoran de nosotros el buen trato que damos a nuestros alumnos y el tipo de enseñanza que ofrecemos.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
-    <div class="video_institucional">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <img src="<?php echo APP_DOMAIN ?>/public/images/la-escuela.jpg" alt="La Escuela" width="100%">
   </div>
 </div>
-<div class="row">
-  <div class="box-galardones"></div>
-</div>
-<div class="row galardones">
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
-    </div>
-    <h3>MOVILIDAD ESCOLAR</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/seminarios.jpg" alt="seminarios" />
-    </div>
-    <h3>SEMINARIOS PRE</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
-    </div>
-    <h3><a href="<?php echo APP_DOMAIN ?>/premios/">PREMIOS</a></h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
-    </div>
-    <h3>GALERÍA</h3>
-  </div>
+<div class="row desc" style="margin-bottom:45px">
+	<div class="col-xs-12 col-1">
+		<h3>Trayectoria</h3>
+	    <p>
+	    	Iniciamos actividades hace 6 años, motivados por el deseo de brindar un servicio de calidad, buscando que los niños 
+	    	se formen de una manera integral.
+	    </p>
+	    <p>
+	    	Contamos con tres sedes:
+	    </p>
+	    <ul>
+	    	<li>2 en Carabayllo.</li>
+	    	<li>1 en San Juan de Lurigancho.</li>
+	    </ul>
+	    <p>
+	    	Nuestros docentes utilizan una gran variedad de metodologías para llegar a los estudiantes. Empleamos y contamos con aulas bien 
+	    	implementadas, laboratorio de cómputo, laboratorio de ciencias, auditorio y ambientes con multimedia.
+	    </p>
+	    <p>
+	    	Además, tenemos espacios que permiten un desarrollo físico-mental como:
+	    </p>
+	    <ul>
+	    	<li>Cancha de grass sintético.</li>
+	    	<li>Cancha de vóley.</li>
+	    	<li>2 piscinas.</li>
+	    	<li>Mesas de ping-pong.</li>
+	    	<li>Etcétera.</li>
+	    </ul>
+	</div>
 </div>

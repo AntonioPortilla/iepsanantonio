@@ -78,58 +78,21 @@
     </div>
   </div>
 </div>
-<div class="row desc">
+<div class="row desc" style="margin-bottom:45px">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
+    <h3><strong>RECONOCIMIENTOS</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
-      primaria y secundaria.
-    </p>
-    <p>
-      Somos IEP San Antonio de Carabayllo, un centro educativo que se caracteriza por la:
-    </p>
-    <p>
-      - Modernidad en la enseñanza. <br>
-      - Formación integral y cívica. <br>
-      - Formación espiritual y en valores.
-    </p>
-    <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
-      deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
+      En <strong>IEP San Antonio de Carabayllo</strong> recibimos el reconocimiento de la CONACO
+      en los años 2011 y 2012. Además, hemos ganado una gran variedad de gallardetes
+      (15 en el 2014) participando en los desfiles en los niveles inicial y primaria.
+      Igualmente, fuimos galardonados con un gonfalón a la excelencia, y obtuvimos
+      los primeros puestos en concursos de matemática organizados por colegios y/o
+      academias. En nuestra institución educativa tenemos 6 años de trayectoria.
+      Nos preocupamos por brindar un servicio de calidad a los padres de familia.
+      Contamos con tres sedes: 2 en Carabayllo y otra en San Juan de Lurigancho.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
-    <div class="video_institucional">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="box-galardones"></div>
-</div>
-<div class="row galardones">
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
-    </div>
-    <h3>MOVILIDAD ESCOLAR</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/seminarios.jpg" alt="seminarios" />
-    </div>
-    <h3>SEMINARIOS PRE</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
-    </div>
-    <h3><a href="<?php echo APP_DOMAIN ?>/premios/">PREMIOS</a></h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
-    </div>
-    <h3>GALERÍA</h3>
+    <img src="<?php echo APP_DOMAIN ?>/public/images/reconocimiento.jpg" alt="reconocimientos" width="100%">
   </div>
 </div>

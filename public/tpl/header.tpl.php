@@ -46,7 +46,7 @@
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
                 <ul class="nav navbar-nav navbar-right jalpNav">
                   <li>
-                    <span><a href="/">La Escuela</a></span>
+                    <span><a href="<?php echo APP_DOMAIN ?>/la-escuela/">La Escuela</a></span>
                   </li>
                   <li>
                     <span><a href="<?php echo APP_DOMAIN ?>/talleres/">Talleres</a></span>
