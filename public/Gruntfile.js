@@ -14,16 +14,16 @@ module.exports = function(grunt) {
         },
         styles: {
             src: [
-                  'bower_components/bootstrap/dist/css/bootstrap.min.css', 
-                  'bower_components/animate.css/animate.min.css', 
+                  'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                  'bower_components/animate.css/animate.min.css',
                   'css/dev/stylus.css'
                   ],
             dest: 'css/prod/styles.css'
         },
         scripts: {
             src: [
-                  'bower_components/jquery/dist/jquery.min.js', 
-                  'bower_components/bootstrap/dist/js/bootstrap.min.js', 
+                  'bower_components/jquery/dist/jquery.min.js',
+                  'bower_components/bootstrap/dist/js/bootstrap.min.js',
                   'js/dev/script.js'
                   ],
             dest: 'js/prod/scripts.js'
@@ -32,16 +32,24 @@ module.exports = function(grunt) {
     cssmin: {
       compress: {
         files: {
-          "css/styles.min.css": 'css/prod/styles.css'
+          "css/styles.min.css": 'css/prod/styles.css',
+          "css/gallery.min.css": ['css/dev/prism.min.css', 'css/dev/style-gallery.min.css']
         }
       }
-    },        
+    },
     uglify: {
-      my_target: {
+      general: {
         files: {
-          'js/scripts.min.js': 'js/prod/scripts.js'
+          'js/scripts.min.js': 'js/prod/scripts.js',
+          'js/gallery.min.js': [
+                                'js/scripts.min.js', 
+                                'js/dev/jquery.lazyload.js', 
+                                'js/dev/least.js', 
+                                'js/dev/prism.js', 
+                                'js/dev/gallery.js'
+                                ]
         }
-      }
+      },
     },
     imagemin: {
       dynamic: {
@@ -63,7 +71,7 @@ module.exports = function(grunt) {
                 'include css': true
             },
             files: {
-                'public/css/styles.min.css': stylusDir + '/estilos.styl' 
+                'public/css/styles.min.css': stylusDir + '/estilos.styl'
             }
         }
     },
@@ -105,16 +113,16 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	//grunt.loadNpmTasks('grunt-contrib-imagemin');   
-	grunt.loadNpmTasks('grunt-contrib-htmlmin'); 
+	//grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-stylus');  
+	grunt.loadNpmTasks('grunt-contrib-stylus');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	//grunt.loadNpmTasks('grunt-pagespeed');
 	// Default task(s).
 	grunt.registerTask('compile', ['stylus']);
-	grunt.registerTask('jalp', ['compile', 'watch']); 
+	grunt.registerTask('jalp', ['compile', 'watch']);
 	grunt.registerTask('default', ['compile']);
-	grunt.registerTask('public', ['jshint', 'concat', 'cssmin', 'uglify']);
+	grunt.registerTask('public', ['jshint', 'concat', 'cssmin', 'uglify:general']);
 
 };

@@ -49,7 +49,7 @@
     <div class="elemento uno">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/noti.png" alt="NOTICIAS" />
-        <h2>NOTICIAS</h2>
+        <h2><a href="<?php echo APP_DOMAIN ?>/noticias/">NOTICIAS</a></h2>
       </div>
     </div>
   </div>
