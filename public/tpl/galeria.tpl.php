@@ -66,7 +66,7 @@
     <div class="elemento tres">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/sedes.png" alt="SEDES" />
-        <h2>SEDES</h2>
+        <h2><a href="<?php echo APP_DOMAIN ?>/sedes/">SEDES</a></h2>
       </div>
     </div>
   </div>

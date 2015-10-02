@@ -1,6 +1,7 @@
 *.htaccess
 *.lnk
-Thumbs.db
+*.log
+*.swp
 prueba.php
 index2.php
 sa-defines.php
@@ -17,5 +18,12 @@ public/js/dev/
 public/js/prod/
 intranet/
 moodledata/
+wp-content/uploads/
 stylus/
 *.zip
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
