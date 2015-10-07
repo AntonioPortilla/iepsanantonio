@@ -122,13 +122,17 @@
   </div>
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
     <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
+      <a href="<?php echo APP_DOMAIN ?>/premios/">
+        <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
+      </a>
     </div>
     <h3><a href="<?php echo APP_DOMAIN ?>/premios/">PREMIOS</a></h3>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
     <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
+      <a href="<?php echo APP_DOMAIN ?>/galeria/">
+        <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
+      </a>
     </div>
     <h3><a href="<?php echo APP_DOMAIN ?>/galeria/">GALERÍA</a></h3>
   </div>
