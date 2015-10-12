@@ -82,7 +82,7 @@
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
     <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
+      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial,
       primaria y secundaria.
     </p>
     <p>
@@ -94,7 +94,7 @@
       - Formación espiritual y en valores.
     </p>
     <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
+      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia
       deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
     </p>
   </div>
@@ -110,7 +110,9 @@
 <div class="row galardones">
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
     <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
+      <div data-toggle="modal" data-target="#popupMov" style="cursor:pointer">
+        <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
+      </div>
     </div>
     <h3>MOVILIDAD ESCOLAR</h3>
   </div>
@@ -135,5 +137,16 @@
       </a>
     </div>
     <h3><a href="<?php echo APP_DOMAIN ?>/galeria/">GALERÍA</a></h3>
+  </div>
+</div>
+<div class="modal fade" id="popupMov" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content popupMov">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">MOVILIDAD ESCOLAR</h4>
+      </div>
+      <img src="<?php echo IMAGE_PATH; ?>/movilidad.jpg"  alt="Movilidad">
+    </div>
   </div>
 </div>
