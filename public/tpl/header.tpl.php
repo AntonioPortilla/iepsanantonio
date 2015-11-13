@@ -49,7 +49,7 @@
                     <span><a href="<?php echo APP_DOMAIN ?>/la-escuela/">La Escuela</a></span>
                   </li>
                   <li>
-                    <span><a href="<?php echo APP_DOMAIN ?>/talleres/">Talleres</a></span>
+                    <span><a href="#/">Talleres</a></span>
                   </li>
                   <li>
                     <span><a href="<?php echo APP_DOMAIN ?>/galeria/">Galería</a></span>
@@ -68,7 +68,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#" target="_blank">
+                      <a href="https://www.facebook.com/IEP.San.Antonio.de.Carabayllo" target="_blank">
                         <img src="<?php echo IMAGE_PATH; ?>/face.png" alt="Facebook">
                       </a>
                     </li>
