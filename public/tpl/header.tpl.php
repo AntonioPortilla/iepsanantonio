@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>IEP San Antonio</title>
   <meta name="description" content="IEP San Antonio">
-  <meta name="keywords" content="IEP, Colegio, Carabayllo, Lima">
+  <?php echo $keywords; ?>
   <meta name="author" content="JALP Laveriano">
   <link rel="stylesheet" href="<?php echo CSS_PATH; ?>/styles.min.css">
-  <link rel="icon" href="<?php echo APP_DOMAIN ?>/favicon.ico">
+  <link rel="icon" href="<?php echo APP_DOMAIN; ?>/favicon.ico">
 </head>
 <body>
   <div class="container contenedor">
