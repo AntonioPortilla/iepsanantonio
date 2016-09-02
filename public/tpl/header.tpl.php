@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IEP San Antonio</title>
-  <meta name="description" content="IEP San Antonio">
-  <meta name="keywords" content="IEP, Colegio, Carabayllo, Lima">
-  <meta name="author" content="JALP Laveriano">
-  <link rel="stylesheet" href="<?php echo CSS_PATH; ?>/styles.min.css">
-  <link rel="icon" href="<?php echo APP_DOMAIN ?>/favicon.ico">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IEP San Antonio</title>
+	<meta name="description" content="IEP San Antonio">
+	<meta name="keywords" content="IEP, Colegio, Carabayllo, Lima">
+	<meta name="author" content="JALP Laveriano">
+	<link rel="stylesheet" href="<?php echo CSS_PATH; ?>/styles.min.css">
+	<link rel="icon" href="<?php echo APP_DOMAIN ?>/favicon.ico">
+	<style>
+		.info a:active, .info a:focus, .info a:hover, .info a:visited{
+			color: white;
+		}
+	</style>
 </head>
 <body>
   <div class="container contenedor">
@@ -46,7 +51,7 @@
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
                 <ul class="nav navbar-nav navbar-right jalpNav">
                   <li>
-                    <span><a href="/">La Escuela</a></span>
+                    <span><a href="<?php echo APP_DOMAIN ?>/la-escuela/">La Escuela</a></span>
                   </li>
                   <li>
                     <span><a href="<?php echo APP_DOMAIN ?>/talleres/">Talleres</a></span>

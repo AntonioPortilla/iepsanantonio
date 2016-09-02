@@ -57,7 +57,7 @@
     <div class="elemento dos">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/actividades.png" alt="ACTIVIDADES" style="margin-top:-24px" />
-        <h2 style="margin-top:15px"><a href="<?php echo APP_DOMAIN ?>/actividades/">ACTIVIDADES <br>EXTRACURRICULARES</a></h2>
+        <h2 style="margin-top:15px">ACTIVIDADES <br>EXTRACURRICULARES</h2>
       </div>
     </div>
   </div>
@@ -78,58 +78,24 @@
     </div>
   </div>
 </div>
-<div class="row desc">
+<div class="row desc" style="margin-bottom:45px">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
+    <h3><strong>ACTIVIDADES EXTRACURRICULARES</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
-      primaria y secundaria.
+      Efectuamos como parte de nuestro trabajo, además de la parte académica, lo relacionado con el desarrollo 
+      socioemocional a través de actividades extracurriculares, entre las cuales tenemos las visitas de estudio que 
+      realizamos a lugares como:
     </p>
+    <ul>
+      <li>Ciudad Sagrada de Caral.</li>
+      <li>Fortaleza del Real Felipe en el Callao.</li>
+      <li>Campamentos.</li>
+    </ul>
     <p>
-      Somos IEP San Antonio de Carabayllo, un centro educativo que se caracteriza por la:
-    </p>
-    <p>
-      - Modernidad en la enseñanza. <br>
-      - Formación integral y cívica. <br>
-      - Formación espiritual y en valores.
-    </p>
-    <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
-      deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
+      También hacemos simulacros de admisión.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
-    <div class="video_institucional">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="box-galardones"></div>
-</div>
-<div class="row galardones">
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
-    </div>
-    <h3>MOVILIDAD ESCOLAR</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/seminarios.jpg" alt="seminarios" />
-    </div>
-    <h3>SEMINARIOS PRE</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
-    </div>
-    <h3>PREMIOS</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
-    </div>
-    <h3>GALERÍA</h3>
+    <img src="<?php echo APP_DOMAIN ?>/public/images/actividades-extracurriculares.jpg" alt="actividades extracurriculares" width="100%">
   </div>
 </div>

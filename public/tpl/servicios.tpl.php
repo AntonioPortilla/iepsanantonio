@@ -73,63 +73,51 @@
     <div class="elemento cuatro">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/servicios.png" alt="SERVICIOS" />
-        <h2><a href="<?php echo APP_DOMAIN ?>/servicios/">SERVICIOS</a></h2>
+        <h2>SERVICIOS</h2>
       </div>
     </div>
   </div>
 </div>
-<div class="row desc">
+<div class="row desc" style="margin-bottom:45px">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
+    <h3><strong>SERVICIOS</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
-      primaria y secundaria.
+      En <strong>IEP San Antonio de Carabayllo</strong> utilizamos el <strong>sistema de enseñanza personalizada</strong>. 
+      También realizamos evaluación por capacidades.
+    </p>
+    <p>Igualmente, ofrecemos:</p>
+    <ul>
+      <li>Novedosos talleres de computación, inglés, lectura y danza.</li>
+      <li>Taller de asesoramiento, de nivelación, de música y de ajedrez.</li>
+    </ul>
+    <p>
+      Además, tenemos en cuenta la aplicación de TIC en la enseñanza y nos preocupamos tanto por el desarrollo 
+      de las inteligencias múltiples y el desarrollo de valores sociales, como por la <strong>formación académica, 
+      espiritual, personal y deportiva</strong>.
     </p>
     <p>
-      Somos IEP San Antonio de Carabayllo, un centro educativo que se caracteriza por la:
+      En nuestra <strong>institución educativa</strong> contamos con:
+    </p>
+    <ul>
+      <li>Departamento psicológico.</li>
+      <li>Círculo de estudio.</li>
+      <li>Laboratorio de cómputo con Internet.</li>
+      <li>Laboratorio de ciencias.</li>
+      <li>Aulas con multimedia.</li>
+      <li>Piscinas para niños y adultos.</li>
+      <li>Campo de grass sintético.</li>
+      <li>Cancha de vóley.</li>
+      <li>Mesas de ping-pong.</li>
+    </ul>
+    <p>
+      Atendemos a alumnos con aprendizajes diferentes que requieren un adecuado desarrollo de sus habilidades 
+      sociales y básicas en el nivel inicial.
     </p>
     <p>
-      - Modernidad en la enseñanza. <br>
-      - Formación integral y cívica. <br>
-      - Formación espiritual y en valores.
-    </p>
-    <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
-      deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
+      En <strong>IEP San Antonio de Carabayllo</strong> disponemos de <strong>profesores con alto nivel académico</strong>.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
-    <div class="video_institucional">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="box-galardones"></div>
-</div>
-<div class="row galardones">
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
-    </div>
-    <h3>MOVILIDAD ESCOLAR</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/seminarios.jpg" alt="seminarios" />
-    </div>
-    <h3>SEMINARIOS PRE</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
-    </div>
-    <h3>PREMIOS</h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
-    </div>
-    <h3>GALERÍA</h3>
+    <img src="<?php echo APP_DOMAIN ?>/public/images/servicios.jpg" alt="servicios" width="100%">
   </div>
 </div>
