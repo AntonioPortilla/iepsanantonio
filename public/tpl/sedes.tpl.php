@@ -43,7 +43,7 @@
     <div class="elemento dos">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/actividades.png" alt="ACTIVIDADES" style="margin-top:-24px" />
-        <h2 style="margin-top:15px">ACTIVIDADES <br>EXTRACURRICULARES</h2>
+        <h2 style="margin-top:15px"><a href="<?php echo APP_DOMAIN ?>/actividades/">ACTIVIDADES <br>EXTRACURRICULARES</a></h2>
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@
     <div class="elemento tres">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/sedes.png" alt="SEDES" />
-        <h2><a href="<?php echo APP_DOMAIN ?>/sedes/">SEDES</a></h2>
+        <h2>SEDES</h2>
       </div>
     </div>
   </div>
@@ -66,10 +66,10 @@
 </div>
 <div class="row desc" style="margin-bottom:45px">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>ACTIVIDADES EXTRACURRICULARES</strong></h3>
+    <h3><strong>SEDES</strong></h3>
     <p>
-      Efectuamos como parte de nuestro trabajo, además de la parte académica, lo relacionado con el desarrollo
-      socioemocional a través de actividades extracurriculares, entre las cuales tenemos las visitas de estudio que
+      Efectuamos como parte de nuestro trabajo, además de la parte académica, lo relacionado con el desarrollo 
+      socioemocional a través de actividades extracurriculares, entre las cuales tenemos las visitas de estudio que 
       realizamos a lugares como:
     </p>
     <ul>

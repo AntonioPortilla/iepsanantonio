@@ -43,7 +43,7 @@
     <div class="elemento dos">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/actividades.png" alt="ACTIVIDADES" style="margin-top:-24px" />
-        <h2 style="margin-top:15px">ACTIVIDADES <br>EXTRACURRICULARES</h2>
+        <h2 style="margin-top:15px"><a href="<?php echo APP_DOMAIN ?>/actividades/">ACTIVIDADES <br>EXTRACURRICULARES</a></h2>
       </div>
     </div>
   </div>
@@ -66,22 +66,19 @@
 </div>
 <div class="row desc" style="margin-bottom:45px">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
-    <h3><strong>ACTIVIDADES EXTRACURRICULARES</strong></h3>
+    <h3><strong>RECONOCIMIENTOS</strong></h3>
     <p>
-      Efectuamos como parte de nuestro trabajo, además de la parte académica, lo relacionado con el desarrollo
-      socioemocional a través de actividades extracurriculares, entre las cuales tenemos las visitas de estudio que
-      realizamos a lugares como:
-    </p>
-    <ul>
-      <li>Ciudad Sagrada de Caral.</li>
-      <li>Fortaleza del Real Felipe en el Callao.</li>
-      <li>Campamentos.</li>
-    </ul>
-    <p>
-      También hacemos simulacros de admisión.
+      En <strong>IEP San Antonio de Carabayllo</strong> recibimos el reconocimiento de la CONACO
+      en los años 2011 y 2012. Además, hemos ganado una gran variedad de gallardetes
+      (15 en el 2014) participando en los desfiles en los niveles inicial y primaria.
+      Igualmente, fuimos galardonados con un gonfalón a la excelencia, y obtuvimos
+      los primeros puestos en concursos de matemática organizados por colegios y/o
+      academias. En nuestra institución educativa tenemos 6 años de trayectoria.
+      Nos preocupamos por brindar un servicio de calidad a los padres de familia.
+      Contamos con tres sedes: 2 en Carabayllo y otra en San Juan de Lurigancho.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
-    <img src="<?php echo APP_DOMAIN ?>/public/images/actividades-extracurriculares.jpg" alt="actividades extracurriculares" width="100%">
+    <img src="<?php echo APP_DOMAIN ?>/public/images/reconocimiento.jpg" alt="reconocimientos" width="100%">
   </div>
 </div>

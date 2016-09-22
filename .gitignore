@@ -1,10 +1,12 @@
 *.htaccess
 *.lnk
-Thumbs.db
+*.log
+*.swp
 prueba.php
 index2.php
 sa-defines.php
 config.php
+wp-config.php
 index.html
 index2.html
 bower_components/
@@ -16,5 +18,13 @@ public/js/dev/
 public/js/prod/
 intranet/
 moodledata/
+wp-content/uploads/
 stylus/
+noticias/
 *.zip
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

@@ -7,11 +7,12 @@
       <li data-target="#indexCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="contentIntranet">
-        <form action="http://intranet.iepsanantonio.com/login" method="post" id="login" class="formIntranet">
+      <!-- <div class="contentIntranet">
+       <form action="http://intranet.iepsanantonio.com/login" method="post" id="login" class="formIntranet">
+          <input type="hidden" name="_token" value="JDkMt5EtFVFtkXgVtpeq5NzXNsHI2ZeinzKFS0qD">
           <h3>INGRESA AL INTRANET</h3>
           <div class="form-group">
-            <input type="email" name="email" id="username" class="form-control" size="15" value="" placeholder="USUARIO" required>
+           <input type="email" name="email" id="username" class="form-control" size="15" value="" placeholder="USUARIO" required>
           </div>
           <div class="form-group">
             <input type="password" name="password" class="form-control" id="password" size="15" value="" placeholder="CONTRASEÑA" required>
@@ -20,7 +21,7 @@
             <input type="submit" id="loginbtn" value="ENTRAR">
           </div>
         </form>
-      </div>
+      </div> -->
       <div class="item active">
         <img class="first-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner1-sac.jpg" alt="IEP">
       </div>
@@ -49,7 +50,7 @@
     <div class="elemento uno">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/noti.png" alt="NOTICIAS" />
-        <h2>NOTICIAS</h2>
+        <h2><a href="<?php echo APP_DOMAIN ?>/noticias/">NOTICIAS</a></h2>
       </div>
     </div>
   </div>
@@ -65,7 +66,7 @@
     <div class="elemento tres">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/sedes.png" alt="SEDES" />
-        <h2>SEDES</h2>
+        <h2><a href="<?php echo APP_DOMAIN ?>/sedes/">SEDES</a></h2>
       </div>
     </div>
   </div>
@@ -82,7 +83,7 @@
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-1">
     <h3><strong>IEP SAN ANTONIO DE CARABAYLLO</strong></h3>
     <p>
-      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial, 
+      En IEP San Antonio de Carabayllo ofrecemos el servicio de enseñanza a alumnos en los niveles inicial,
       primaria y secundaria.
     </p>
     <p>
@@ -94,13 +95,13 @@
       - Formación espiritual y en valores.
     </p>
     <p>
-      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia 
+      Además, contamos con docentes altamente calificados, sala de lectura, banda de guerra, academia
       deportiva, círculo de estudio y movilidad propia. También ofrecemos talleres de inglés.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-2">
     <div class="video_institucional">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/h7YEQcig6m4" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/H3bcivd9NLQ" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -110,7 +111,9 @@
 <div class="row galardones">
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
     <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
+      <div data-toggle="modal" data-target="#popupMov" style="cursor:pointer">
+        <img src="<?php echo IMAGE_PATH; ?>/galardones/movilidad.jpg" alt="movilidad" />
+      </div>
     </div>
     <h3>MOVILIDAD ESCOLAR</h3>
   </div>
@@ -122,14 +125,29 @@
   </div>
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
     <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
+      <a href="<?php echo APP_DOMAIN ?>/premios/">
+        <img src="<?php echo IMAGE_PATH; ?>/galardones/premios.jpg" alt="premios" />
+      </a>
     </div>
-    <h3>PREMIOS</h3>
+    <h3><a href="<?php echo APP_DOMAIN ?>/premios/">PREMIOS</a></h3>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
     <div class="elemento">
-      <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
+      <a href="<?php echo APP_DOMAIN ?>/galeria/">
+        <img src="<?php echo IMAGE_PATH; ?>/galardones/galeria.jpg" alt="galeria" />
+      </a>
     </div>
-    <h3>GALERÍA</h3>
+    <h3><a href="<?php echo APP_DOMAIN ?>/galeria/">GALERÍA</a></h3>
+  </div>
+</div>
+<div class="modal fade" id="popupMov" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content popupMov">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">MOVILIDAD ESCOLAR</h4>
+      </div>
+      <img src="<?php echo IMAGE_PATH; ?>/movilidad.jpg"  alt="Movilidad">
+    </div>
   </div>
 </div>

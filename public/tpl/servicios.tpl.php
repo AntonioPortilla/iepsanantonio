@@ -7,20 +7,6 @@
       <li data-target="#indexCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="contentIntranet">
-        <form action="http://intranet.iepsanantonio.com/login" method="post" id="login" class="formIntranet">
-          <h3>INGRESA AL INTRANET</h3>
-          <div class="form-group">
-            <input type="email" name="email" id="username" class="form-control" size="15" value="" placeholder="USUARIO" required>
-          </div>
-          <div class="form-group">
-            <input type="password" name="password" class="form-control" id="password" size="15" value="" placeholder="CONTRASEÑA" required>
-          </div>
-          <div class="form-group">
-            <input type="submit" id="loginbtn" value="ENTRAR">
-          </div>
-        </form>
-      </div>
       <div class="item active">
         <img class="first-slide" src="<?php echo IMAGE_PATH; ?>/banner/banner1-sac.jpg" alt="IEP">
       </div>
@@ -49,7 +35,7 @@
     <div class="elemento uno">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/noti.png" alt="NOTICIAS" />
-        <h2>NOTICIAS</h2>
+        <h2><a href="<?php echo APP_DOMAIN ?>/noticias/">NOTICIAS</a></h2>
       </div>
     </div>
   </div>
@@ -65,7 +51,7 @@
     <div class="elemento tres">
       <div>
         <img src="<?php echo IMAGE_PATH; ?>/sedes.png" alt="SEDES" />
-        <h2>SEDES</h2>
+        <h2><a href="<?php echo APP_DOMAIN ?>/sedes/">SEDES</a></h2>
       </div>
     </div>
   </div>
