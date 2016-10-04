@@ -21,8 +21,13 @@
 		color: white;
 	}
 	.desc p, .desc ul {
-		font-size: 1.2em;
-		text-align: justify;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .txtlogo {
+	color: #ff0;
+	text-shadow: 0px 2px 2px rgba(0, 0,0, 0.9);
+	font-size: 2em;
 	}
   </style>
 </head>
@@ -56,6 +61,8 @@
                   </a>
                 </span>
               </div>
+                  <div class="txtlogo" style="margin-top:12px">I.E.P. SAN ANTONIO </div>
+                  <div class="txtlogo">DE CARABAYLLO</div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
